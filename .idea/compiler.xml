@@ -14,6 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="vue-web" target="1.5" />
+      <module name="vue-web1" target="1.5" />
       <module name="vue-webservice" target="1.7" />
     </bytecodeTargetLevel>
   </component>
