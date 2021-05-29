@@ -1,4 +1,4 @@
-package com.test.vueweb1;
+package com.test.controller;
 
 import com.test.server.TestDemo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,16 +13,16 @@ import javax.annotation.Resource;
  */
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/vue")
 public class TestController {
 
     @Resource
     TestDemo testDemo;
 
     @RequestMapping("/ha")
-    public String gethh(String code){
-        System.out.println(code);
+    public String gethh(String username,String password){
+        System.out.println(username+"-"+password);
         testDemo.testHa();
-        return code;
+        return username;
     }
 }
