@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 public class TestDemo {
 
     public void testHa(){
+
         System.out.println("启动成功");
     }
 }
